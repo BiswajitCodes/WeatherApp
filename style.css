@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #2980b9);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.header-info i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #f0f0f0;
+}
+
+.weather-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.weather-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+#get-weather {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #2980b9;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#get-weather:hover {
+  background-color: #e0e0e0;
+}
+
+#weather-info {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
